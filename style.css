@@ -1,0 +1,109 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: Raleway Thin;
+}
+.letterSpacing{
+  letter-spacing: 2px;
+}
+hr{
+  color: black;
+  width: 100%;
+}
+
+.titleImg{
+  width: 100%;
+  height: 80vh;
+  background: url("img/mac.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-attachment: fixed; */
+}
+.textLearn{
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.466);
+  color: black;
+}
+
+.iconBlock{
+  margin-top: 43vh;
+  color: rgba(255, 255, 255, 0.466);
+}
+.partAbout div i{
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px 20px 0px;
+
+}
+.partWkd{
+  background-color: rgba(0, 0, 0, 0.041);
+  width: 100%;
+}
+.partWkd a{
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding: 1rem;
+}
+.bgGrey{
+  background-color: rgb(226, 226, 226);
+}
+.bgBar{
+  background-color: rgba(128, 128, 128, 0.459);
+  height:24px;
+}
+.colorBar90{
+  background-color: rgb(128, 128, 128);
+   height:24px;
+   width:90%;
+   text-align: center;
+   color: white;
+}
+.colorBar85{
+  background-color: rgb(128, 128, 128);
+   height:24px;
+   width:85%;
+   text-align: center;
+   color: white;
+}
+.colorBar75{
+  background-color: rgb(128, 128, 128);
+   height:24px;
+   width:75%;
+   text-align: center;
+   color: white;
+}
+.bgContact{
+  background-color: rgba(0, 0, 0, 0.041);
+}
+/* .buttonWidth{
+  width: 50px;
+} */
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  background-color: #45a1ff;
+  color: #fff;
+  padding: 4%;
+}
+.btnGrey{
+  background-color: rgba(0, 0, 0, 0.082);
+  color: black;
+}
+
+.mTop{
+  margin-top: 5%;
+}
+.mBottom{
+  margin-bottom: 4%;
+}
+/* .rightUl{
+  display: flex;
+    justify-content: end;
+    align-self: end;
+} */
